@@ -1,0 +1,196 @@
+
+header.header{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    position: relative;
+}
+
+h1.big-title{
+    font-size: 120px;
+    color: white;
+    width: 695px;
+    height: 220px;
+    font-family: "DM Serif Display", serif;
+    position:absolute;
+    left: 160px;
+    top: 190px;
+    line-height: 110px;
+}
+
+/* Première lettre rouge */
+h1.big-title::first-letter {
+    color: red;
+}
+
+p.subtitle{
+    font-size: 24px;
+    color: white;
+    width: 363px;
+    height: 59px;
+    font-family: "DM Sans",serif;
+    position:absolute;
+    left: 167px;
+    top: 306px;
+    line-height: 110px;
+}
+
+p.slogan{
+    font-size: 60px;
+    color: white;
+    width: 740px;
+    height: 130px;
+    font-family: "DM Sans",serif;
+    position:absolute;
+    left: 160px;
+    top: 460px;
+   
+}
+
+p.slogan .red{
+    color: red;
+}
+
+Body{
+    margin: 0;
+}
+section.top-page{
+    background:url('Pageweb_images/Rectangle\ 1.png') ;
+    height: 600px;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/*navigation bar*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    position:absolute;
+    width : 224px;
+    left: 1036px;
+    top:30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "DM Serif Display", serif;
+}
+
+p.description{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    width: 1000px;
+    height: 70px;
+    font-family: "DM Serif Display",serif;
+    position:absolute;
+    left: 160px;
+    top: 600px;
+    line-height: 80px;
+}
+
+p.projects{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    width: 1000px;
+    height: 70px;
+    font-family: "DM Serif Display",serif;
+    position:absolute;
+    left: 160px;
+    top: 680px;
+    line-height: 80px;
+}
+
+div.separator{
+    width: 200px;
+    height: 15px;
+    background-color: #21008c;
+    position:absolute;
+    border-radius: 20px;
+    left: 160px;
+    top: 690px;
+}
+
+div.project-container{
+    font-family: "DM Sans", serif;
+    font-size: 24px;
+}
+
+p.HappyBread{
+    position:absolute;
+    left: 160px;
+    top: 1060px;
+}
+
+p.Suisei{
+    position:absolute;
+    left: 1070px;
+    top: 1060px;
+}
+
+p.FireDevil{
+    position:absolute;
+    left: 640px;
+    top: 1060px;
+}
+
+img.HappyBread{
+    position:absolute;
+    left: 166px;
+    top: 830px;
+}
+
+img.FireDevil{
+    position:absolute;
+    left: 618px;
+    top: 808px;
+}
+
+img.Suisei{  
+    position:absolute;
+    left: 1018px;
+    top: 830px;
+}
+
+section.puzzle-section{
+    font-family: "DM Serif Display", serif;
+    font-size: 24px;
+    position:absolute;
+    left: 160px;
+    top: 1230px;
+}
+
+
+img.RH_baguette{
+    position:absolute;
+    left: 825px;
+    top: 1280px;
+}
+section.bottom-page{
+    position:absolute;
+    background:url('Pageweb_images/Ground.png') ;
+    background-size: cover;
+    top: 1593px;
+    width: 100%;
+    height: 607px;
+    overflow: hidden;
+}
+p.contact{
+    font-family: "DM Serif Display", serif;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    position:absolute;
+    left: 700px;
+    top: 500px;
+}
+p.github{
+    font-family: "DM Serif Display", serif;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    position:absolute;
+    left: 630px;
+    top: 530px;
+}
